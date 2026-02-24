@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>su.nightexpress.lootconomy</groupId>
-    <artifactId>LootConomy</artifactId>
+    <artifactId>OrbisLoot</artifactId>
     <version>2.3.0</version>
 
     <properties>
@@ -103,22 +103,8 @@
                 <filtering>true</filtering> <!-- this is the important part, it's what replaces, filters, all placeholders in the resources folder (such as ${project.version} in plugin.yml) -->
             </resource>
         </resources>
-        <finalName>LootConomy-${project.version}</finalName>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-source-plugin</artifactId>
-                <version>3.3.0</version>
-                <executions>
-                    <execution>
-                        <id>attach-sources</id>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
+        <finalName>OrbisLoot-${project.version}</finalName>
+        <plugins/>
     </build>
 
 </project>

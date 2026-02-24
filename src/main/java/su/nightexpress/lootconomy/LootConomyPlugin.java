@@ -32,7 +32,7 @@ public class LootConomyPlugin extends NightPlugin implements ImprovedCommands {
     @Override
     @NotNull
     protected PluginDetails getDefaultDetails() {
-        return PluginDetails.create("LootConomy", new String[]{"lootconomy", "lc"})
+        return PluginDetails.create("OrbisLoot", new String[]{"orbisloot", "ol"})
             .setConfigClass(Config.class)
             .setLangClass(Lang.class)
             .setPermissionsClass(Perms.class);
