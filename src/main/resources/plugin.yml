@@ -6,7 +6,6 @@ author: NightExpress
 depend:
   - nightcore
   - EconomyBridge
-  - OrbisEconomy
 softdepend:
   - MythicMobs
   - PlaceholderAPI
